@@ -90,7 +90,6 @@ def compute_referendum_result_by_regions(referendum_and_areas):
 
     return result
 
-
 def plot_referendum_map(referendum_result_by_regions):
     """Plot a map with the results from the referendum.
 
@@ -134,6 +133,5 @@ if __name__ == "__main__":
         referendum_and_areas
     )
     print(referendum_results)
-
     plot_referendum_map(referendum_results)
     plt.show()
